@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -15,11 +15,9 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -36,3 +34,36 @@
     transform: rotate(360deg);
   }
 }
+
+.FormMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.FormMovie h1 {
+  text-align: center;
+}
+
+.FormMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.FormMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.FormMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
